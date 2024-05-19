@@ -24,7 +24,7 @@ class Program
             Console.WriteLine();
             string input = Console.ReadLine();
 
-            if (input == "1")
+            if (input == "1" | input == "write new entery")
             {
                 if (unsavedEntry == false)
                 {
@@ -43,21 +43,21 @@ class Program
                     }
                 }
             }
-            else if (input == "2")
+            else if (input == "2" | input == "display entery")
             {
                 workingJournal.EnteryRead();
             }
-            else if (input == "3")
+            else if (input == "3" | input == "save to file")
             {
                 unsavedEntry = false;
                 workingJournal.Save();
                 
             }
-            else if (input == "4")
+            else if (input == "4" | input == "load from file")
             {
                 workingJournal.Load();
             }
-            else if (input == "5")
+            else if (input == "5" | input == "quit")
             {
                 running = false;
             }
