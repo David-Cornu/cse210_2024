@@ -47,6 +47,7 @@ public class Reference
         }
         else
         {
+            // Not sure why not working
             //string line;
             //char[] separators = [' ', '.'];
 
