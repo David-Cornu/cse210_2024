@@ -68,6 +68,10 @@ public class Word
             shownPossition = (int)hiddenPosition.Pop();
             wordToShow = (string)hiddenWords.Pop();
             _words[shownPossition] = wordToShow;
+            if(hiddenPosition.Count < 3)
+            {
+                timesRun = 3;
+            }
         }
     }
 }
