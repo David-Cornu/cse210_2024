@@ -4,7 +4,6 @@ public class Breathing: Activity
 {
     private int _breathRate = 5000;
 
-    
     public Breathing(string name, string desc, int dur):base(name, desc, dur)
     {
         _title = name;
@@ -12,8 +11,6 @@ public class Breathing: Activity
         _duration = dur;
     }
     
-
-
     public void BreathInAndOut()
     { 
         Intro();
