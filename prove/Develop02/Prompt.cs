@@ -7,7 +7,8 @@ public class Prompt
         Random randomGenerator = new Random();
         int randomPrompt = randomGenerator.Next(0,6);
 
-        List<string> prompts = new List<string>{
+        List<string> prompts = new List<string>
+        {
             "What is something interesting that happened today?",
             "What merical have you seen today?",
             "What did you do today?",
